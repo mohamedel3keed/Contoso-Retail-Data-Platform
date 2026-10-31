@@ -1,0 +1,4 @@
+v1
+{"path":"file:///data-lake/data-lake/bronze_stream/retail-sales/events_p0_o1357-1370.jsonl","timestamp":1793314891951,"batchId":6}
+{"path":"file:///data-lake/data-lake/bronze_stream/retail-sales/events_p1_o1050-1060.jsonl","timestamp":1793314891957,"batchId":6}
+{"path":"file:///data-lake/data-lake/bronze_stream/retail-sales/events_p2_o1039-1050.jsonl","timestamp":1793314891963,"batchId":6}

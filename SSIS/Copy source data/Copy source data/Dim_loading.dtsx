@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="40"
-  DTS:VersionGUID="{71EBDB91-5A9B-4BCE-8350-51C1222C3EDD}">
+  DTS:VersionBuild="41"
+  DTS:VersionGUID="{77BAD09C-EFF9-4BA4-A65C-8390BF2CD894}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -37,7 +37,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=RetailDWH;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{CE0C877F-138D-4F75-8D28-877C10DBD2EC}localhost\SQLEXPRESS.RetailDWH;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=RetailDWH;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{CE0C877F-138D-4F75-8D28-877C10DBD2EC}localhost\SQLEXPRESS.RetailDWH;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -10678,6 +10678,10 @@
                       refId="Package\stg_FactSales\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[stg_LoadDateTime]"
                       dataType="dbTimeStamp"
                       name="stg_LoadDateTime" />
+                    <externalMetadataColumn
+                      refId="Package\stg_FactSales\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[stg_IsValid]"
+                      dataType="bool"
+                      name="stg_IsValid" />
                   </externalMetadataColumns>
                 </input>
               </inputs>

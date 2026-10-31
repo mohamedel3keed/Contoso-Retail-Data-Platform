@@ -1,0 +1,7 @@
+v1
+{"path":"file:///data-lake/data-lake/bronze_stream/retail-sales/events_p0_o1156-1201.jsonl","timestamp":1793300629576,"batchId":3}
+{"path":"file:///data-lake/data-lake/bronze_stream/retail-sales/events_p1_o891-917.jsonl","timestamp":1793300629584,"batchId":3}
+{"path":"file:///data-lake/data-lake/bronze_stream/retail-sales/events_p2_o886-915.jsonl","timestamp":1793300629589,"batchId":3}
+{"path":"file:///data-lake/data-lake/bronze_stream/retail-sales/events_p0_o1202-1238.jsonl","timestamp":1793300639861,"batchId":3}
+{"path":"file:///data-lake/data-lake/bronze_stream/retail-sales/events_p1_o918-954.jsonl","timestamp":1793300639867,"batchId":3}
+{"path":"file:///data-lake/data-lake/bronze_stream/retail-sales/events_p2_o916-943.jsonl","timestamp":1793300639874,"batchId":3}
